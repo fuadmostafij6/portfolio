@@ -1,0 +1,40 @@
+
+.blog .card-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 175px;
+}
+
+.blog .card-title {
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+}
+
+.blog .cat {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.blog .fa-users {
+  margin-left: 1rem;
+}
+
+.blog .card-footer {
+  font-size: 0.8rem;
+}
+.blog .card-img-overlay {
+  cursor: pointer;
+}
+.blog .card-img-overlay .btn{
+  cursor: text !important;
+  background: orangered !important;
+  color: white;
+}
+
+.blog .card-body .btn{
+  background: orangered !important;
+  cursor: pointer;
+
+  outline: none !important;
+  color: white !important;
+}
