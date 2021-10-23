@@ -5,6 +5,10 @@
     -webkit-transition: all 0.225s ease;
     transition: all 0.225s ease;
 }
+.contact textarea:focus ~ label, textarea:valid ~ label{
+    top: -10px !important;
+
+}
 
 .contact .styled-input {
     float: left;
